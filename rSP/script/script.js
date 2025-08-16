@@ -26,7 +26,7 @@ BDJoe.onmouseout = function()
     BDJoeV.pause();
     if( BDJoeV.currentTime !== 0 )
         BDJoeV.currentTime = 0;
-};
+}
 /*let characters = document.querySelectorAll( '.portfolio .portfolio-content .card img' );
 let theSound     = document.querySelector( '.theSound' );
 characters.forEach( function( e )
