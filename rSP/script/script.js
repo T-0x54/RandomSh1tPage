@@ -1,18 +1,20 @@
-let pF           = document.querySelector( ".infiltrator" );
-window.onload    = () => pF.addEventListener( "click", () => setTimeout( () => pF.click(), 3e3 ) );
-let Axel         = document.querySelector( "#Axel" ); 
-Gena             = document.querySelector( "#Gena" );
-BDJoe            = document.querySelector( "#BDJoe" ); 
-AxelV            = document.querySelector( ".AxelV" ); 
-GenaV            = document.querySelector( ".GenaV" );
-BDJoeV           = document.querySelector( ".BDJoeV" );
+let pF        = document.querySelector( ".infiltrator" );
+window.onload = () => pF.addEventListener( "click", () => setTimeout( () => pF.click(), 3e3 ) );
+let Axel      = document.querySelector( "#Axel" ); 
+let Gena      = document.querySelector( "#Gena" );
+let BDJoe     = document.querySelector( "#BDJoe" ); 
+let AxelV     = document.querySelector( ".AxelV" ); 
+let GenaV     = document.querySelector( ".GenaV" );
+let BDJoeV    = document.querySelector( ".BDJoeV" );
+
 Axel.onmouseover = () => AxelV.play();
 Axel.onmouseout  = function()
 {
     AxelV.pause();
     if( AxelV.currentTime !== 0 )
         AxelV.currentTime = 0;
-} 
+}
+
 Gena.onmouseover = () => GenaV.play();
 Gena.onmouseout  = function()
 {
@@ -20,6 +22,7 @@ Gena.onmouseout  = function()
     if( GenaV.currentTime !== 0 )
         GenaV.currentTime = 0;
 }
+
 BDJoe.onmouseover = () => BDJoeV.play();
 BDJoe.onmouseout = function()
 {
