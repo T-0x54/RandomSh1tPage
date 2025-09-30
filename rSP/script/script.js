@@ -1,11 +1,11 @@
 let pF = document.querySelector(".infiltrator");
 window.onload = () => pF.addEventListener("click", () => setTimeout(() => pF.click(), 3e3 ));
 let Axel = document.querySelector("#Axel"); 
-let Gena = document.querySelector( "#Gena" );
-let BDJoe = document.querySelector( "#BDJoe" ); 
-let AxelV = document.querySelector( ".AxelV" ); 
-let GenaV = document.querySelector( ".GenaV" );
-let BDJoeV = document.querySelector( ".BDJoeV" );
+let Gena = document.querySelector("#Gena");
+let BDJoe = document.querySelector("#BDJoe"); 
+let AxelV = document.querySelector(".AxelV"); 
+let GenaV = document.querySelector(".GenaV");
+let BDJoeV = document.querySelector(".BDJoeV");
 
 Axel.onmouseover = () => AxelV.play();
 Axel.onmouseout  = function() {
